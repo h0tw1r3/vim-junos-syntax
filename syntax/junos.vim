@@ -48,6 +48,7 @@ syn match junosHeader /\v(version\s)@<=[0-9R.]+(;)@=/
 
 " Errors
 syn match junosError /## SECRET-DATA.*/
+syn match junosError /inactive: /
 
 
 " Functions
